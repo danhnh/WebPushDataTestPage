@@ -422,7 +422,7 @@ function subscribe() {
                 // the data to the user. Set it to "false" if you
                 // want to use this notification internally and not
                 // display a message.
-                userVisibleOnly: false,
+                userVisibleOnly: true,
             })
             .then(function(subscription_info) {
                 if (! subscription_info.endpoint) {
